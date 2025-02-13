@@ -1,7 +1,7 @@
 # Bubble Effect on Mouse Movement
 
 <div align="center">
-  <img src ="./Bubble effects.png" height="200px" width="100%" />  
+  <img src ="./Bubble effects.png" height="250px" width="70%" />  
 </div>
 
 ## Overview
