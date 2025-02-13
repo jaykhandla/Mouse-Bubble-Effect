@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A webpage demonstrating bubble effects on mouse movement.">
+    <meta name="keywords" content="bubble, effects, animation, mouse, javascript, CSS">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Bubble Effects">
+    <meta property="og:description" content="A webpage demonstrating bubble effects on mouse movement.">
+    <meta property="og:image" content="https://github.com/jaykhandla/Mouse-Bubble-Effect/commit/00b567f4c4d0c97206d5c5100b63ad1570f70f76">
+    <meta property="og:url" content="https://github.com/jaykhandla">
+    <link rel="icon" href="/Logo JAY.png">
+    <title>Bubble effects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+        i {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: rgb(214, 49, 77);
+            pointer-events: none;
+            animation: animate 2s linear forwards;
+        }
+        @keyframes animate {
+            0% {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(var(--x), var(--y));
+            }
+        }
+    </style>
+    
+</head>
+<body>
+
+    <script>
+        function spark(event) {
+            let i = document.createElement('i');
+            i.style.left = (event.pageX) + 'px';
+            i.style.top = (event.pageY) + 'px';
+            i.style.scale = `${Math.random() * 2 + 1}`;
+            i.style.setProperty('--x', getRandomTransitionValue());
+            i.style.setProperty('--y', getRandomTransitionValue());
+
+            document.body.appendChild(i);
+
+            setTimeout(() => {
+                document.body.removeChild(i);
+            }, 2000);
+        }
+
+        function getRandomTransitionValue() {
+            return `${Math.random() * 400 - 200}px`;
+        }
+
+        document.addEventListener('mousemove', spark);
+    </script>
+
+</body>
+</html>
