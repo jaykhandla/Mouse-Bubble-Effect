@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src ="./Bubble effects.png" height="250px" width="70%" />  
-</div>
+</div> 
 
 ## Overview
 
