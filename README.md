@@ -44,6 +44,7 @@ To run this project locally, follow these steps:
 
 You can view the live demo of this effect hosted on GitHub Pages [here](https://jaykhandla.github.io/Mouse-Bubble-Effect/).
 
+
 ## Customization
 
 - **Bubble Size, Color, and Speed**: You can adjust the bubble size, color, and speed by modifying the relevant values in the **CSS** and **JavaScript** code.
