@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
-You can view the live demo of this effect hosted on GitHub Pages [here](https://jaykhandla.github.io/Mouse-Bubble-Effect/).
+You can view the live demo of this effect hosted on GitHub Pages [here]().
 
 ## Customization
 
