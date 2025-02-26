@@ -2,7 +2,11 @@
 
 <div align="center">
   <img src ="./Bubble effects.png" height="250px" width="70%" />  
+<<<<<<< HEAD
 </div> 
+=======
+</div>
+>>>>>>> ca7579e801ca26f08769ecc619a97f312400e20e
 
 ## Overview
 
@@ -42,10 +46,18 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
+<<<<<<< HEAD
 You can view the live demo of this effect hosted on GitHub Pages [here](ok).
 
+=======
+You can view the live demo of this effect hosted on GitHub Pages [here]().
+>>>>>>> ca7579e801ca26f08769ecc619a97f312400e20e
 
 ## Customization
 
 - **Bubble Size, Color, and Speed**: You can adjust the bubble size, color, and speed by modifying the relevant values in the **CSS** and **JavaScript** code.
+<<<<<<< HEAD
 - **Animation Properties**: Fine-tune the appearance of the bubbles, such as size, opacity, and movement direction, to match your desired aesthetic.
+=======
+- **Animation Properties**: Fine-tune the appearance of the bubbles, such as size, opacity, and movement direction, to match your desired aesthetic.
+>>>>>>> ca7579e801ca26f08769ecc619a97f312400e20e
